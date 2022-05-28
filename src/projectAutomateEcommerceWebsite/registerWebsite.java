@@ -23,7 +23,7 @@ public class registerWebsite {
         System.out.println("sign in was click and commit");
         //enter the email address
         WebElement email= driver.findElement(By.id("email_create"));
-        email.sendKeys("ambreen.mooraj@gmail.com");
+        email.sendKeys("");
         driver.findElement(By.id("SubmitCreate")).submit();
         
         //credentials
