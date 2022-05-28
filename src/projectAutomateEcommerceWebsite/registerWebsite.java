@@ -20,7 +20,7 @@ public class registerWebsite {
         driver.get("https://automationpractice.com/index.php");
         //sign in button code
         driver.findElement(By.className("login")).click();
-        System.out.println("signin was click");
+        System.out.println("sign in was click and commit");
         //enter the email address
         WebElement email= driver.findElement(By.id("email_create"));
         email.sendKeys("ambreen.mooraj@gmail.com");
