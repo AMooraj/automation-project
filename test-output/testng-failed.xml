@@ -3,19 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="EcommerceProject.EcommerceProjectWithTestng">
+      <class name="testngPackage.Skipclass">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="beforeClass"/>
-          <include name="websiteRegistration"/>
-          <include name="afterSuite"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="afterTest"/>
-          <include name="beforeSuite"/>
-          <include name="afterClass"/>
+          <include name="test2"/>
         </methods>
-      </class> <!-- EcommerceProject.EcommerceProjectWithTestng -->
+      </class> <!-- testngPackage.Skipclass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
