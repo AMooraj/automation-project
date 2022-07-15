@@ -26,6 +26,8 @@ public class EcommerceProjectWithTestng {
 	  //login btn
 	  WebElement loginBtn = driver.findElement((By.className("login")));
 	  loginBtn.click();
+	  
+	  
         System.out.println("signin was click");
         
       //email btn and submit  
